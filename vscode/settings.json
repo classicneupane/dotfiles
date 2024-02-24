@@ -1,0 +1,300 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "material-icon-theme",
+    "[vue]": {
+      "editor.defaultFormatter": "Vue.volar"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "settingsSync.ignoredExtensions": [],
+    "html.format.contentUnformatted": "",
+    "svelte.enable-ts-plugin": true,
+    "[dart]": {
+      // "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [
+        80
+      ],
+      "editor.selectionHighlight": false,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": "off"
+    },
+    "editor.cursorSmoothCaretAnimation": "on",
+    "vim.digraphs": {},
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active",
+    "extensions.experimental.affinity": {
+      "asvetliakov.vscode-neovim": 1
+    },
+    "workbench.activityBar.location": "hidden",
+    // "editor.formatOnSave": true,
+    "editor.suggest.insertMode": "replace",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.linkedEditing": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // "window.zoomLevel": 0.5,
+    "launch": {},
+    "[json]": {},
+    "update.showReleaseNotes": false,
+    "zenMode.hideLineNumbers": false,
+    "editor.lineNumbers": "relative",
+    "vim.leader": "<Space>",
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+      // NAVIGATION
+      // switch b/w buffers
+      {
+        "before": [
+          "<S-h>"
+        ],
+        "commands": [
+          ":bprevious"
+        ]
+      },
+      {
+        "before": [
+          "<S-l>"
+        ],
+        "commands": [
+          ":bnext"
+        ]
+      },
+      // splits
+      {
+        "before": [
+          "leader",
+          "v"
+        ],
+        "commands": [
+          ":vsplit"
+        ]
+      },
+      {
+        "before": [
+          "leader",
+          "s"
+        ],
+        "commands": [
+          ":split"
+        ]
+      },
+      // panes
+      {
+        "before": [
+          "leader",
+          "h"
+        ],
+        "commands": [
+          "workbench.action.focusLeftGroup"
+        ]
+      },
+      {
+        "before": [
+          "leader",
+          "u"
+        ],
+        "commands": [
+          "editor.action.rename"
+        ]
+      },
+      {
+        "before": [
+          "leader",
+          "j"
+        ],
+        "commands": [
+          "workbench.action.focusBelowGroup"
+        ]
+      },
+      {
+        "before": [
+          "leader",
+          "k"
+        ],
+        "commands": [
+          "workbench.action.focusAboveGroup"
+        ]
+      },
+      {
+        "before": [
+          "leader",
+          "l"
+        ],
+        "commands": [
+          "workbench.action.focusRightGroup"
+        ]
+      },
+      // NICE TO HAVE
+      {
+        "before": [
+          "leader",
+          "w"
+        ],
+        "commands": [
+          ":w!"
+        ]
+      },
+      {
+        "before": [
+          "leader",
+          "q"
+        ],
+        "commands": [
+          ":q!"
+        ]
+      },
+      {
+        "before": [
+          "leader",
+          "x"
+        ],
+        "commands": [
+          ":x!"
+        ]
+      },
+      {
+        "before": [
+          "[",
+          "d"
+        ],
+        "commands": [
+          "editor.action.marker.prev"
+        ]
+      },
+      {
+        "before": [
+          "]",
+          "d"
+        ],
+        "commands": [
+          "editor.action.marker.next"
+        ]
+      },
+      {
+        "before": [
+          "<leader>",
+          "c",
+          "a"
+        ],
+        "commands": [
+          "editor.action.quickFix"
+        ]
+      },
+      {
+        "before": [
+          "leader",
+          "f"
+        ],
+        "commands": [
+          "editor.fold"
+        ]
+      },
+      {
+        "before": [
+          "leader",
+          "g",
+          "f"
+        ],
+        "commands": [
+          "editor.unfold"
+        ]
+      },
+      {
+        "before": [
+          "leader",
+          "p"
+        ],
+        "commands": [
+          "editor.action.formatDocument"
+        ]
+      },
+      {
+        "before": [
+          "g",
+          "r"
+        ],
+        "commands": [
+          "editor.action.goToReferences"
+        ]
+      },
+      {
+        "before": [
+          "g",
+          "r"
+        ],
+        "commands": [
+          "editor.action.referenceSearch.trigger"
+        ]
+      },
+      {
+        "before": [
+          "g",
+          "h"
+        ],
+        "commands": [
+          "editor.action.showDefinitionPreviewHover"
+        ]
+      }
+    ],
+    "vim.visualModeKeyBindings": [
+      // Stay in visual mode while indenting
+      {
+        "before": [
+          "<"
+        ],
+        "commands": [
+          "editor.action.outdentLines"
+        ]
+      },
+      {
+        "before": [
+          ">"
+        ],
+        "commands": [
+          "editor.action.indentLines"
+        ]
+      },
+      // Move selected lines while staying in visual mode
+      {
+        "before": [
+          "J"
+        ],
+        "commands": [
+          "editor.action.moveLinesDownAction"
+        ]
+      },
+      {
+        "before": [
+          "K"
+        ],
+        "commands": [
+          "editor.action.moveLinesUpAction"
+        ]
+      },
+      // toggle comment selection
+      {
+        "before": [
+          "leader",
+          "c"
+        ],
+        "commands": [
+          "editor.action.commentLine"
+        ]
+      }
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "vim.handleKeys": {
+      "<C-f>": true,
+    },
+    "workbench.settings.applyToAllProfiles": []
+  }
+  
